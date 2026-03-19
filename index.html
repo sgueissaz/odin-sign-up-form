@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner-image">
+        <div class="banner-logo">
+            <img class="logo" src="odin-lined.png">
+            <div class="title">ODIN</div>
+        </div>
+        <div class="banner-footer">
+            <a href="https://unsplash.com/photos/red-torii-gate-leading-to-a-japanese-street-zasdv7_-Emg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Photo by Peter Thomas on Unsplash</a>
+        </div>
+    </div>
+    <form class="form" action="#" method="post">
+        <div class="banner-logo">
+            <img class="logo" src="odin-lined.png">
+            <div class="title">ODIN</div>
+        </div>
+        <section class="form-header">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br/> Sign up now to get started.</p>
+            <p>You know you want to.</p>
+        </section>
+        <section class="form-body">
+            <h1>Let's do this!</h1>
+            <div class="form-line">
+                <fieldset class="form-field">
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" name="first_name" id="first_name" placeholder="Joe" required>
+                </fieldset>
+                <fieldset class="form-field">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" name="last_name" id="last_name" placeholder="Doe" required>
+                </fieldset>
+            </div>
+            <div class="form-line">
+                <fieldset class="form-field">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" placeholder="joe.doe@gmail.com" required>
+                </fieldset>
+                <fieldset class="form-field">  
+                    <label for="phone_number">PHONE NUMBER</label>
+                    <input type="tel" name="phone_number" id="phone_number" placeholder="+41 XX XXX XX XX" required>
+                </fieldset> 
+            </div>
+            <div class="form-line">
+                <fieldset class="form-field">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" minlength="8" placeholder="At least 8 characters" required>
+                </fieldset>                
+                <fieldset class="form-field">
+                    <label for="password_confirmation">CONFIRM PASSWORD</label>
+                    <input type="password" name="password_confirmation" id="password_confirmation" minlength="8" placeholder="Repeat your password" required>
+                </fieldset>                 
+            </div>
+            <div class="form-footer">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>              
+        </section>
+    </form>
+</body>
+</html>
